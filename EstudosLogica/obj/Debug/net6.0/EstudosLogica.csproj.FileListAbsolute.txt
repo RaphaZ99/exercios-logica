@@ -1,0 +1,15 @@
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\bin\Debug\net6.0\EstudosLogica.exe
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\bin\Debug\net6.0\EstudosLogica.deps.json
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\bin\Debug\net6.0\EstudosLogica.runtimeconfig.json
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\bin\Debug\net6.0\EstudosLogica.dll
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\bin\Debug\net6.0\EstudosLogica.pdb
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.csproj.AssemblyReference.cache
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.AssemblyInfoInputs.cache
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.AssemblyInfo.cs
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.csproj.CoreCompileInputs.cache
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.dll
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\refint\EstudosLogica.dll
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.pdb
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\EstudosLogica.genruntimeconfig.cache
+C:\Users\rapha\source\repos\EstudosLogica\EstudosLogica\obj\Debug\net6.0\ref\EstudosLogica.dll
