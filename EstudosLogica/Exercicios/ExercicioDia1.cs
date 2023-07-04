@@ -87,7 +87,7 @@ namespace EstudosLogica.Exercicios
                 }
             }
 
-            if (isPrimo)
+                if (isPrimo)
             {
                 Console.WriteLine($"O número é primo {numero}");
             }
@@ -97,6 +97,6 @@ namespace EstudosLogica.Exercicios
             }
 
         }
-
+         
     }
 }
