@@ -1,4 +1,6 @@
 ﻿using EstudosLogica.Exercicios;
+using System.Globalization;
+
 public class Program
 {
     public static void Main(string[] args)
@@ -8,6 +10,7 @@ public class Program
         Console.WriteLine("Escolha o dia");
         Console.WriteLine("1 - Dia 1");
         Console.WriteLine("2 - Dia 2");
+        Console.WriteLine("3 - Dia 3");
 
 
         var userInput = Console.ReadLine();
@@ -19,6 +22,8 @@ public class Program
                 ExercicioDia1(); break;
             case "2":
                 ExercicioDia2(); break;
+            case "3":
+                ExercicioDia3(); break;
             default:
 
                 Console.WriteLine("Nenhum dia escolhido");
@@ -101,7 +106,7 @@ public class Program
         dia2.IsPalidromo(input);
 
         Console.WriteLine("\nDigite uma palavra para verificar se ele é um pangrama (Se possui todas as letras do alfabeto)");
-        input= Console.ReadLine();
+        input = Console.ReadLine();
 
         dia2.IsPangrama(input);
 
@@ -109,6 +114,37 @@ public class Program
         input = Console.ReadLine();
 
         dia2.OrdernaArray(input);
+
+    }
+
+    public static void ExercicioDia3()
+    {
+        var dia3 = new ExercicioDia3();
+
+        Console.WriteLine("\nO programa a seguir irá somar todos os números pares de 1 a 100\n");
+        dia3.SomaNumerosPares();
+
+        Console.WriteLine("\nO programa a seguir irá verificar se a palavra é um anagrama\n");
+        Console.WriteLine("\nDigite a primeira palavra a qual será verificado.\n");
+        var palavra1 = Console.ReadLine();
+        Console.WriteLine("\nDigite a segunda palavra para verificar se é um anagrama da primeira palavra\n");
+        var palavra2 = Console.ReadLine();
+        dia3.IsAnagramaOutraPalavra(palavra1, palavra2);
+
+        Console.WriteLine("Informe uma data para ser convertido em dd/mm/aaa");
+        var data = Console.ReadLine();
+
+        CultureInfo cultureInfo = new CultureInfo("pt-br");
+        cultureInfo.DateTimeFormat.ShortDatePattern = "dd-MM-yyyy";
+        dia3.ConverteData(Convert.ToDateTime(data.ToString(cultureInfo), cultureInfo), cultureInfo);
+
+        Console.WriteLine("\n Informe numeros inteiros separados por espaço a qual será verificado qual será o maior");
+        var arrayInteiros = Console.ReadLine();
+        dia3.EncontraMaiorInteiro(arrayInteiros);
+
+        Console.WriteLine("\n Digite uma palavra para ser verificado quantas vogais existe nela");
+        var palavra = Console.ReadLine();
+        dia3.ContadorVogais(palavra);
 
     }
 
