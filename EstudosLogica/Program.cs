@@ -11,6 +11,7 @@ public class Program
         Console.WriteLine("1 - Dia 1");
         Console.WriteLine("2 - Dia 2");
         Console.WriteLine("3 - Dia 3");
+        Console.WriteLine("4 - Dia 4");
 
 
         var userInput = Console.ReadLine();
@@ -24,6 +25,8 @@ public class Program
                 ExercicioDia2(); break;
             case "3":
                 ExercicioDia3(); break;
+            case "4":
+                ExercicioDia4(); break;
             default:
 
                 Console.WriteLine("Nenhum dia escolhido");
@@ -145,6 +148,33 @@ public class Program
         Console.WriteLine("\n Digite uma palavra para ser verificado quantas vogais existe nela");
         var palavra = Console.ReadLine();
         dia3.ContadorVogais(palavra);
+
+    }
+    public static void ExercicioDia4()
+    {
+
+        var dia4 = new ExercicioDia4();
+
+        Console.WriteLine("\nDigite um número para verificar se é um número de armstrong");
+        Console.WriteLine("\nNumero perfeito é quando a soma dos seus divisores (exceto ele mesmo) é igual a ele");
+        var input = Console.ReadLine();
+
+        dia4.CalculoNumerArmstrong(input);
+
+        Console.WriteLine("\nDigite um número para verificar se ele é um número perfeito.");
+        input = Console.ReadLine();
+
+        dia4.IsNumeroPerfeito(input);
+
+        Console.WriteLine("\nDigite um ano para verificar se ele é bissexto.");
+        input = Console.ReadLine();
+
+        dia4.IsAnoBissexto(Convert.ToInt32(input));
+
+        Console.WriteLine("\nDigite uma palavra para ser ordenada em ordem alfabética.");
+        input = Console.ReadLine();
+
+        dia4.OrderPlavaraOrdemAlfabetica(input);
 
     }
 
